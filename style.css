@@ -1,3 +1,23 @@
 body{
-background-color: rgba(224, 104, 124, 0.829);
+background-color: rgba(14, 13, 13, 0.829);
+background-image: url("../img/Fondo1.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color:rgb(253, 248, 248);
 }
+h1{
+color:rgb(228, 21, 21) ;
+}
+h2{
+    color:rgb(241, 196, 15) ;
+}
+h3{
+    color:rgb(42, 236, 3) ;}
+h4{
+    color:rgb(20, 58, 251) ;
+}
+h5{
+    color:rgb(243, 22, 228) ;}
+h6{
+    color:rgb(244, 24, 97) ;}
