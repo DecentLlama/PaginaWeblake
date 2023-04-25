@@ -21,3 +21,27 @@ h5{
     color:rgb(243, 22, 228) ;}
 h6{
     color:rgb(244, 24, 97) ;}
+
+.primer-parrafo{
+
+    color:rgb(17, 215, 205);
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250;
+}
+.segundo-parrafo{
+
+    color:rgb(83, 45, 196);
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 250;
+}
+.galeria{
+    display:flex;
+    border:2px solid white;
+    overflow-x: scroll;
+}
+.galeria img{
+    width:325px;
+    height: 200px;
+}
