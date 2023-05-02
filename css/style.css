@@ -6,6 +6,20 @@ background-position: center;
 background-size: cover;
 color:rgb(253, 248, 248);
 }
+.inicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio h1{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.inicio img{
+    border-radius: 100%;
+    border: 5px solid white;
+}
 h1{
 color:rgb(228, 21, 21) ;
 }
@@ -38,7 +52,8 @@ h6{
 }
 .galeria{
     display:flex;
-    border:2px solid white;
+    border:10px solid transparent;
+    border-image: linear-gradient(to bottom, #531010 30%, #986a6a 90% ) 1;
     overflow-x: scroll;
 }
 .galeria img{
