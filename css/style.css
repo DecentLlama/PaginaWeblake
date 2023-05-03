@@ -60,3 +60,20 @@ h6{
     width:325px;
     height: 200px;
 }
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 10px;
+
+}
