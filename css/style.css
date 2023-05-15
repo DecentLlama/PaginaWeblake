@@ -1,10 +1,5 @@
 body{
-background-color: rgba(14, 13, 13, 0.829);
-background-image: url("../img/Fondo1.jpg");
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-color:rgb(253, 248, 248);
+background-color: rgba(163, 159, 159, 0.829) !important ;
 }
 .inicio{
     display: flex;
@@ -17,53 +12,84 @@ color:rgb(253, 248, 248);
     font-weight: 700;
 }
 .inicio img{
-    border-radius: 100%;
-    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h1{
-color:rgb(228, 21, 21) ;
+.texto1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h2{
-    color:rgb(241, 196, 15) ;
+.Titles h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h3{
-    color:rgb(42, 236, 3) ;}
-h4{
-    color:rgb(20, 58, 251) ;
+.texto2{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
-h5{
-    color:rgb(243, 22, 228) ;}
-h6{
-    color:rgb(244, 24, 97) ;}
 
-.primer-parrafo{
-
-    color:rgb(17, 215, 205);
-    font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 250;
-}
-.segundo-parrafo{
-
-    color:rgb(83, 45, 196);
-    font-size: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 250;
-}
 .galeria{
     display:flex;
-    border:10px solid transparent;
-    border-image: linear-gradient(to bottom, #531010 30%, #986a6a 90% ) 1;
+    border:10px solid white;
     overflow-x: scroll;
 }
 .galeria img{
-    width:325px;
-    height: 200px;
+    width:600px;
+    height: 300px;
+}
+.Mapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Ej{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-title{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.card-text{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.card-link{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-items:start;
     background-color: white;
     color: black;
 }
